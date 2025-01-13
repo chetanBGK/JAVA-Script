@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/Calculator.css">
+</head>
+
+<body >
+
+<input type="text" id="result">
+<br>
+<br>
+
+<button onclick="initialValue='';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">CE</button>
+<button onclick="initialValue=initialValue+'1';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">1</button>
+    <button onclick="initialValue=initialValue+'2';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue"   >2</button>
+    <button onclick="initialValue=initialValue+'+';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">+</button>
+    <br>
+
+    <button onclick="initialValue=initialValue+'3';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">3</button>
+    <button onclick="initialValue=initialValue+'4';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">4</button>
+    <button onclick="initialValue=initialValue+'5';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">5</button>
+    <button onclick="initialValue=initialValue+'-';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">-</button>
+    <br>
+
+    <button onclick="initialValue=initialValue+'6';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">6</button>
+    <button onclick="initialValue=initialValue+'7';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">7</button>
+    <button onclick="initialValue=initialValue+'8';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">8</button>
+    <button onclick="initialValue=initialValue+'*';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">*</button>
+    <br>
+
+    <button onclick="initialValue=initialValue+'9';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">9</button>
+    <button onclick="initialValue=initialValue+'9';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">0</button>
+    <button onclick="initialValue=initialValue+'.';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">.</button>
+    <button onclick="initialValue=initialValue+'/';
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">/</button>
+    <br>
+
+    <button onclick="initialValue=eval(initialValue);
+                    document
+                    .querySelector('#result')
+                    .value=initialValue">=</button>
+    <br>
+
+
+
+
+
+<script src="../js/Calculator.js"></script>
+</body>
+</html>
